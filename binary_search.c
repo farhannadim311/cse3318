@@ -20,11 +20,11 @@ int binary_search(int val, int N, int* A)
         }
         else if (A[l] > val )
         {
-           r = m + 1;
+           r = m;
         }
         else 
         {
-            l = m + 1;
+            l = m;
         }
     m = (l + r) / 2;
     }
